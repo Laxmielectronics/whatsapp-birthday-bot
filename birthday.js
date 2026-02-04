@@ -16,7 +16,7 @@ client.on("ready", async () => {
 
   const sheets = google.sheets({ version: "v4", auth });
 
-  const sheetId = "https://docs.google.com/spreadsheets/d/1p-rLwjGcLZnt3lx6914Uyxcy0cjZMFxKU_lhjqvnZb4/edit?usp=sharing";
+  const sheetId = "1p-rLwjGcLZnt3lx6914Uyxcy0cjZMFxKU_lhjqvnZb4g";
 
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId: sheetId,
